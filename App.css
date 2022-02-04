@@ -1,0 +1,83 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.car-list > span {
+  padding: 0 10px;
+}
+.box {
+  width: 500px;
+    background: #d7dfd7;
+    padding: 10px;
+    margin: 5px 0;
+    color: #c1334b;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.hotels-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.banner {
+position: absolute;
+right: 15%;
+bottom: 50%;
+left: 12px;
+z-index: 10;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #fff;
+text-align: center;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+#header {
+  color: red;
+}
+
+.hint {
+  color: blue;
+  border: 1px dotted orange
+}
+.btn-clas {
+  font-weight: bold;
+  border: 3px solid green
+}
+
+.list-item{
+  border:2px solid red;
+  margin: 5px;
+}
+
+.list-item {
+    border: 1px solid darkgray;
+}
+

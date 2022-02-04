@@ -1,0 +1,126 @@
+body {
+    margin: 0;;
+}
+h1 {
+    font-size: 24px;
+}
+.nav > li > a {
+    color: rgb(117, 111, 111);
+    text-decoration: none;
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+header {
+    border-bottom: 1px solid darkgray;
+}
+
+.nav {
+    width: 600px;
+    list-style: none;
+}
+#logo {
+    height: 50px;
+}
+
+.tabs span {
+    padding: 5px 25px;
+    background: #eddddd;
+    margin: 0 5px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.tabs :nth-child(2) {
+    background: #c60001;
+    color: white;
+}
+
+#search-container {
+    background-image: url('../../imgs/diwalibg.gif');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    height: 45px;
+    width: 300px;
+    padding: 0 10px;
+    border-bottom-style: none;
+    border-top-style: none;
+}
+.leave_input > input {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background: #c60001;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.abibus_img {
+    display: flex;
+    overflow: auto;
+    /* flex-wrap: wrap; */
+}
+.abibus_img > img {
+    margin: 10px 10px;
+}
+.bot {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: lightgrey;
+    padding: 5px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li:before{
+        content: "\2022"; 
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+}
+
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
